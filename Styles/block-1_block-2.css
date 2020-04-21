@@ -1,0 +1,149 @@
+.base-block-1_block-2, .block-1, .block-2 {
+  width: 50%;
+  height: 177px;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.base-button-1_button-checkbox, .block-1 .button-1, .block-2 form .button-checkbox {
+  height: 45px;
+  background: #FED233;
+  border-radius: 3px;
+  border: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.font-4, .block-1 .block-1-text h1, .block-2 .block-2-text h1 {
+  font-family: Gotham Pro, sans-serif;
+  font-size: 24px;
+  line-height: 39px;
+  color: #333333;
+}
+
+.font-5, .block-1 .button-1 .text-button, .block-2 form .button-checkbox {
+  font-family: Gotham Pro, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.block-1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  float: left;
+}
+
+.block-1 .block-1-text {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.block-1 .block-1-text h1 {
+  margin-bottom: 0px;
+}
+
+.block-1 .button-1 {
+  width: 207px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -10px;
+}
+
+.block-2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  overflow: auto;
+  position: relative;
+}
+
+.block-2 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.block-2 form .search-aria {
+  position: relative;
+}
+
+.block-2 form .search-aria .search-aria-row {
+  height: 45px;
+  width: 216px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.block-2 form .search-aria .search {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.block-2 form .search-aria ::-webkit-input-placeholder {
+  text-indent: 46px;
+}
+
+.block-2 form .button-checkbox {
+  width: 166px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.block-2 .block-2-text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.block-2 .block-2-text .play-button {
+  width: 6px;
+  height: 8px;
+  margin-top: 44px;
+  margin-left: 6px;
+}
+/*# sourceMappingURL=block-1_block-2.css.map */

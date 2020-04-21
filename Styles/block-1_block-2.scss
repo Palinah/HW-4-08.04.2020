@@ -1,0 +1,132 @@
+        
+.base-block-1_block-2 {
+    width: 50%;
+    height: 177px;
+    background: transparent;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.base-button-1_button-checkbox {
+    height: 45px;
+    background: #FED233;
+    border-radius: 3px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.font-4 {
+    font-family: Gotham Pro, sans-serif;
+    font-size: 24px;
+    line-height: 39px;
+    color: #333333;
+}
+
+.font-5 {
+    font-family: Gotham Pro, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+        .block-1{
+            @extend .base-block-1_block-2;
+            flex-direction: column;
+            justify-content: space-around; 
+            float: left;
+            
+            .block-1-text{
+                margin-top: -10px;
+                margin-bottom: 5px;
+                   
+                h1{
+                    @extend .font-4;
+                    margin-bottom: 0px;
+                }
+            }
+                
+            .button-1 {
+                @extend .base-button-1_button-checkbox;
+                width: 207px; 
+                justify-content: space-between;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: -10px;
+
+                .text-button{
+                    @extend .font-5
+                }
+            }
+        }
+      
+      
+        .block-2 {
+            @extend .base-block-1_block-2;
+            flex-direction: row;
+            justify-content: flex-end;
+            flex-wrap: wrap-reverse;
+            overflow: auto;
+            position: relative;
+
+            form {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                
+                .search-aria {
+                    position: relative;
+                    
+
+                    .search-aria-row{
+                        height: 45px;
+                        width: 216px;
+                        margin-right: 10px;
+                        border-radius: 3px;
+                    }
+
+                    .search {
+                        position: absolute;
+                        left: 15px;
+                        top: 15px;
+                    }
+    
+                    ::-webkit-input-placeholder {
+                        text-indent: 46px;
+                    }
+
+                }
+
+                .button-checkbox {
+                    @extend .base-button-1_button-checkbox;
+                    width: 166px;
+                    justify-content: space-around;
+                    @extend .font-5
+                }
+
+            }
+            
+            .block-2-text {
+                box-sizing: border-box;
+                width: max-content;
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                margin-top: 10px;
+                margin-left: 30px;
+               
+                h1{
+                    @extend .font-4
+                    
+                }
+                
+                .play-button{
+                    width: 6px;
+                    height: 8px;
+                    margin-top: 44px;
+                    margin-left: 6px;
+                }
+
+            }
+
+        }
